@@ -1,0 +1,165 @@
+/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
+
+@import url("https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Baloo+Chettan&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900|Righteous&display=swap");
+
+/*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
+ 2) font-family: 'Poppins', sans-serif;
+ ----------------------------------------*****/
+
+/*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
+
+@import url(animate.min.css);
+@import url(normalize.css);
+@import url(icomoon.css);
+@import url(font-awesome.min.css);
+@import url(meanmenu.css);
+@import url(owl.carousel.min.css);
+@import url(swiper.min.css);
+@import url(slick.css);
+@import url(jquery.fancybox.min.css);
+@import url(jquery-ui.css);
+@import url(nice-select.css);
+/*  */
+body {
+  background-image: url(images/banner_hal.png);
+  color: #666666;
+  font-size: 14px;
+  font-family: Poppins;
+  line-height: 1.80857;
+  font-weight: normal;
+}
+.logo a {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 40px;
+}
+.logo img {
+  width: 100px;
+}
+.navbar-nav .nav-item {
+  color: black;
+}
+.navigation.navbar {
+  padding-top: 12px;
+  margin-left: -150px;
+}
+.header {
+  width: 100%;
+  background: transparent;
+  padding: 10px 10px;
+}
+
+.navigation.navbar-dark .navbar-nav .nav-link {
+  padding: 0 10px;
+  color: #000;
+  font-size: 17px;
+  line-height: 60px;
+  font-family: "Poppins";
+}
+
+.navigation.navbar-dark .navbar-nav .nav-link:focus,
+.navigation.navbar-dark .navbar-nav .nav-link:hover {
+  color: #000;
+}
+
+.navigation.navbar-dark .navbar-nav .active > .nav-link,
+.navigation.navbar-dark .navbar-nav .nav-link.active,
+.navigation.navbar-dark .navbar-nav .nav-link.show,
+.navigation.navbar-dark .navbar-nav .show > .nav-link {
+  color: #fff;
+}
+.dropdown-menu {
+  background-color: transparent;
+  border: none;
+  font-size: 13px;
+  color: #ffff;
+  border-radius: 10px;
+  margin-top: -20px;
+}
+ul,
+li,
+ol {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+button:focus {
+  outline: none;
+}
+.user {
+  float: right;
+  margin-left: 600px;
+}
+.user img {
+  margin: 10px;
+}
+.container {
+  text-align: center;
+  margin-top: 10px;
+}
+.container .about h1 {
+  color: #0891f8;
+  font-family: "Poppins";
+  font-size: 40px;
+}
+.container .about p {
+  color: #000;
+}
+.read-more button {
+  border-radius: 20px;
+  font-size: 17px;
+  background-color: #fff;
+  color: #0891f8;
+  padding: 13px 0px;
+  width: 100%;
+  max-width: 190px;
+  text-align: center;
+  display: inline-block;
+  transition: ease-in all 0.5s;
+  border-radius: 10px;
+}
+
+.read-more button:hover {
+  background-color: #0891f8;
+  color: #fff;
+  transition: ease-in all 0.5s;
+  border-radius: 26px;
+}
+.copyright {
+  padding: 20px 0px;
+  background: #3d7aa0;
+  margin-top: 50px;
+  position: relative;
+}
+
+.copyright::after {
+  content: "";
+  position: absolute;
+  bottom: 61px;
+  width: 290px;
+  height: 292px;
+  right: 0;
+}
+
+.copyright p {
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.copyright a {
+  color: #fff;
+}
+
+.copyright a:hover {
+  color: #23262d;
+}
